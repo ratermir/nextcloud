@@ -3,4 +3,4 @@
 imageTag=ratermir/nginx-alpine:003
 
 docker build --rm --tag ${imageTag} .
-#docker push ${imageTag}
+docker push ${imageTag}
