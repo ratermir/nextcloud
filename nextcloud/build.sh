@@ -2,5 +2,5 @@
 
 imageTag=ratermir/nextcloud:16-fpm-alpine
 
-docker build --rm --tag ratermir/$imageTag .
+docker build --rm --tag $imageTag .
 docker push $imageTag
