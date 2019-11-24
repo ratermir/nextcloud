@@ -1,5 +1,5 @@
 
-FROM nextcloud:16-fpm-alpine
+FROM nextcloud:17-fpm-alpine
 
 USER 0
 COPY ./contrib/zz-docker.conf /usr/local/etc/php-fpm.d/
